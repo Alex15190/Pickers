@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		85124EB2212C32530068AAB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124EB1212C32530068AAB7 /* AppDelegate.m */; };
-		85124EB5212C32530068AAB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124EB4212C32530068AAB7 /* ViewController.m */; };
-		85124EB8212C32530068AAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85124EB6212C32530068AAB7 /* Main.storyboard */; };
-		85124EBA212C325E0068AAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85124EB9212C325E0068AAB7 /* Assets.xcassets */; };
-		85124EBD212C325E0068AAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85124EBB212C325E0068AAB7 /* LaunchScreen.storyboard */; };
 		85124EC0212C325E0068AAB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124EBF212C325E0068AAB7 /* main.m */; };
 		85124ECA212C325E0068AAB7 /* PickersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124EC9212C325E0068AAB7 /* PickersTests.m */; };
 		85124ED5212C325E0068AAB7 /* PickersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124ED4212C325E0068AAB7 /* PickersUITests.m */; };
+		85124EE4212C33750068AAB7 /* BIDDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124EE3212C33750068AAB7 /* BIDDatePickerViewController.m */; };
+		85124EE7212C341B0068AAB7 /* BIDSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124EE6212C341B0068AAB7 /* BIDSingleComponentPickerViewController.m */; };
+		85124EEA212C34380068AAB7 /* BIDDoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124EE9212C34380068AAB7 /* BIDDoubleComponentPickerViewController.m */; };
+		85124EED212C344D0068AAB7 /* BIDDependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124EEC212C344D0068AAB7 /* BIDDependentComponentPickerViewController.m */; };
+		85124EF0212C345E0068AAB7 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85124EEF212C345E0068AAB7 /* BIDCustomPickerViewController.m */; };
+		85124EF3212C34A90068AAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85124EF2212C34A90068AAB7 /* Main.storyboard */; };
+		85124EF5212C36850068AAB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85124EF4212C36850068AAB7 /* Images.xcassets */; };
+		85124EF7212D49EE0068AAB7 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85124EF6212D49EE0068AAB7 /* statedictionary.plist */; };
+		85124EFA212D66200068AAB7 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85124EF8212D661F0068AAB7 /* win.wav */; };
+		85124EFB212D66200068AAB7 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 85124EF9212D661F0068AAB7 /* crunch.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +44,6 @@
 		85124EAD212C32530068AAB7 /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85124EB0212C32530068AAB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85124EB1212C32530068AAB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85124EB3212C32530068AAB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		85124EB4212C32530068AAB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		85124EB7212C32530068AAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		85124EB9212C325E0068AAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85124EBC212C325E0068AAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85124EBE212C325E0068AAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85124EBF212C325E0068AAB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85124EC5212C325E0068AAB7 /* PickersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +52,21 @@
 		85124ED0212C325E0068AAB7 /* PickersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85124ED4212C325E0068AAB7 /* PickersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickersUITests.m; sourceTree = "<group>"; };
 		85124ED6212C325E0068AAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85124EE2212C33750068AAB7 /* BIDDatePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDDatePickerViewController.h; sourceTree = "<group>"; };
+		85124EE3212C33750068AAB7 /* BIDDatePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDDatePickerViewController.m; sourceTree = "<group>"; };
+		85124EE5212C341B0068AAB7 /* BIDSingleComponentPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDSingleComponentPickerViewController.h; sourceTree = "<group>"; };
+		85124EE6212C341B0068AAB7 /* BIDSingleComponentPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDSingleComponentPickerViewController.m; sourceTree = "<group>"; };
+		85124EE8212C34380068AAB7 /* BIDDoubleComponentPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDDoubleComponentPickerViewController.h; sourceTree = "<group>"; };
+		85124EE9212C34380068AAB7 /* BIDDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
+		85124EEB212C344D0068AAB7 /* BIDDependentComponentPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDDependentComponentPickerViewController.h; sourceTree = "<group>"; };
+		85124EEC212C344D0068AAB7 /* BIDDependentComponentPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDDependentComponentPickerViewController.m; sourceTree = "<group>"; };
+		85124EEE212C345E0068AAB7 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
+		85124EEF212C345E0068AAB7 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
+		85124EF2212C34A90068AAB7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		85124EF4212C36850068AAB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85124EF6212D49EE0068AAB7 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		85124EF8212D661F0068AAB7 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		85124EF9212D661F0068AAB7 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +117,25 @@
 		85124EAF212C32530068AAB7 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				85124EF2212C34A90068AAB7 /* Main.storyboard */,
 				85124EB0212C32530068AAB7 /* AppDelegate.h */,
 				85124EB1212C32530068AAB7 /* AppDelegate.m */,
-				85124EB3212C32530068AAB7 /* ViewController.h */,
-				85124EB4212C32530068AAB7 /* ViewController.m */,
-				85124EB6212C32530068AAB7 /* Main.storyboard */,
-				85124EB9212C325E0068AAB7 /* Assets.xcassets */,
-				85124EBB212C325E0068AAB7 /* LaunchScreen.storyboard */,
+				85124EF4212C36850068AAB7 /* Images.xcassets */,
 				85124EBE212C325E0068AAB7 /* Info.plist */,
+				85124EF6212D49EE0068AAB7 /* statedictionary.plist */,
+				85124EF9212D661F0068AAB7 /* crunch.wav */,
+				85124EF8212D661F0068AAB7 /* win.wav */,
 				85124EBF212C325E0068AAB7 /* main.m */,
+				85124EE2212C33750068AAB7 /* BIDDatePickerViewController.h */,
+				85124EE3212C33750068AAB7 /* BIDDatePickerViewController.m */,
+				85124EE5212C341B0068AAB7 /* BIDSingleComponentPickerViewController.h */,
+				85124EE6212C341B0068AAB7 /* BIDSingleComponentPickerViewController.m */,
+				85124EE8212C34380068AAB7 /* BIDDoubleComponentPickerViewController.h */,
+				85124EE9212C34380068AAB7 /* BIDDoubleComponentPickerViewController.m */,
+				85124EEB212C344D0068AAB7 /* BIDDependentComponentPickerViewController.h */,
+				85124EEC212C344D0068AAB7 /* BIDDependentComponentPickerViewController.m */,
+				85124EEE212C345E0068AAB7 /* BIDCustomPickerViewController.h */,
+				85124EEF212C345E0068AAB7 /* BIDCustomPickerViewController.m */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -235,9 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85124EBD212C325E0068AAB7 /* LaunchScreen.storyboard in Resources */,
-				85124EBA212C325E0068AAB7 /* Assets.xcassets in Resources */,
-				85124EB8212C32530068AAB7 /* Main.storyboard in Resources */,
+				85124EFB212D66200068AAB7 /* crunch.wav in Resources */,
+				85124EF7212D49EE0068AAB7 /* statedictionary.plist in Resources */,
+				85124EFA212D66200068AAB7 /* win.wav in Resources */,
+				85124EF5212C36850068AAB7 /* Images.xcassets in Resources */,
+				85124EF3212C34A90068AAB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85124EB5212C32530068AAB7 /* ViewController.m in Sources */,
+				85124EED212C344D0068AAB7 /* BIDDependentComponentPickerViewController.m in Sources */,
+				85124EE7212C341B0068AAB7 /* BIDSingleComponentPickerViewController.m in Sources */,
+				85124EEA212C34380068AAB7 /* BIDDoubleComponentPickerViewController.m in Sources */,
 				85124EC0212C325E0068AAB7 /* main.m in Sources */,
 				85124EB2212C32530068AAB7 /* AppDelegate.m in Sources */,
+				85124EE4212C33750068AAB7 /* BIDDatePickerViewController.m in Sources */,
+				85124EF0212C345E0068AAB7 /* BIDCustomPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +330,6 @@
 			targetProxy = 85124ED1212C325E0068AAB7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		85124EB6212C32530068AAB7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85124EB7212C32530068AAB7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85124EBB212C325E0068AAB7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85124EBC212C325E0068AAB7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		85124ED7212C325E0068AAB7 /* Debug */ = {

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BIDDatePickerViewController.h
 //  Pickers
 //
 //  Created by Alex Chekodanov on 21.08.2018.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BIDDatePickerViewController : UIViewController
 
 @end
-
